@@ -20,6 +20,9 @@ import Shop from './Shop.jsx';
 // )
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    {/* <RouterProvider router={router} /> */}
+    <RouterProvider router={router}>
+      <Shop />
+    </RouterProvider>
   </StrictMode>
 )

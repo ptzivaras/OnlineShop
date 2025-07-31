@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation from '/components/Navigation/Navigation'
+import Navigation from '../components/Navigation/navigation.jsx';
 import { Outlet } from 'react-router-dom'
 
 const ShopApplicationWrapper = () => {

@@ -8,6 +8,8 @@ import dresses from '../../assets/img/dresses.jpg'
 import Carousel from 'react-multi-carousel';
 import { responsive } from '../../utils/Section.constants';
 import './NewArrivals.css';
+import joggersImg from '../../assets/img/joggers.jpg';
+import kurtisImg from '../../assets/img/kurtis.jpg';
 
 const items = [{
     'title':'Jeans',
@@ -24,11 +26,11 @@ const items = [{
 },
 {
     'title':'Joggers',
-    imagePath:require('../../assets/img/joggers.jpg')
+    imagePath: joggersImg
 },
 {
     'title':'Kurtis',
-    imagePath:require('../../assets/img/kurtis.jpg')
+    imagePath: kurtisImg
 }];
 
 const NewArrivals = () => {
