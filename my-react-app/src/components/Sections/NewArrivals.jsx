@@ -1,5 +1,6 @@
 import React from 'react'
-import SeactionHeading from './SectionsHeading/SeactionHeading'
+import { RouterProvider } from 'react-router-dom'                    
+import SectionHeading from './SectionsHeading/SectionHeading'
 import Card from '../Card/Card';
 import Jeans from '../../assets/img/jeans.jpg'
 import Shirts from '../../assets/img/shirts.jpg'
@@ -36,7 +37,7 @@ const items = [{
 const NewArrivals = () => {
   return (
     <>
-    <SeactionHeading title={'New Arrivals'}/>
+    <SectionHeading title={'New Arrivals'}/>
     <Carousel
         responsive={responsive}
         autoPlay={false}
