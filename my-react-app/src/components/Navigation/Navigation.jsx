@@ -10,7 +10,7 @@ const Navigation = () => {
     <nav className='flex items-center py-6 px-16 justify-between gap-20 custom-nav'>
       <div className='flex items-center gap-6'>
         {/* Logo */}
-        <a className='text-3xl text-black font-bold gap-8' href='/'>ShopEase</a>
+        <a className='text-3xl text-black font-bold gap-8' href='/'>Shop</a>
       </div>
       <div className='flex flex-wrap items-center gap-10'>
         {/* Nav items */}
