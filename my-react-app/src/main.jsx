@@ -9,20 +9,7 @@ import { Provider } from 'react-redux';
 import store from './store/store.jsx';
 import ShopApplicationWrapper from './pages/ShopApplicationWrapper';
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <React.StrictMode>
-//     <RouterProvider router={router} />
-//   </React.StrictMode>
-// );
 
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     {/* <RouterProvider router={router} /> */}
-//     <RouterProvider router={router}>
-//       <Shop />
-//     </RouterProvider>
-//   </StrictMode>
-// )
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

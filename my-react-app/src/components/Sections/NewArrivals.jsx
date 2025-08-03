@@ -1,5 +1,4 @@
 import React from 'react'
-import { RouterProvider } from 'react-router-dom'                    
 import SectionHeading from './SectionsHeading/SectionHeading'
 import Card from '../Card/Card';
 import Jeans from '../../assets/img/jeans.jpg'
@@ -9,8 +8,6 @@ import dresses from '../../assets/img/dresses.jpg'
 import Carousel from 'react-multi-carousel';
 import { responsive } from '../../utils/Section.constants';
 import './NewArrivals.css';
-import joggersImg from '../../assets/img/joggers.jpg';
-import kurtisImg from '../../assets/img/kurtis.jpg';
 
 const items = [{
     'title':'Jeans',
@@ -27,11 +24,11 @@ const items = [{
 },
 {
     'title':'Joggers',
-    imagePath: joggersImg
+    imagePath:require('../../assets/img/joggers.jpg')
 },
 {
     'title':'Kurtis',
-    imagePath: kurtisImg
+    imagePath:require('../../assets/img/kurtis.jpg')
 }];
 
 const NewArrivals = () => {

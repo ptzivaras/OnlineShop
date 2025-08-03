@@ -22,3 +22,5 @@ const Breadcrumb = ({ links }) => {
         </nav>
     )
 }
+
+export default Breadcrumb
