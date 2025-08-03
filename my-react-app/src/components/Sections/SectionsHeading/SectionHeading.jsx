@@ -10,12 +10,12 @@ const SeactionHeading = ({title}) => {
   )
 }
 
-SeactionHeading.defaultProps = {
+// SeactionHeading.defaultProps = {
 
-}
+// }
 
-SeactionHeading.prototype= {
-    title:String
-}
+// SeactionHeading.prototype= {
+//     title:String
+// }
 
 export default SeactionHeading
